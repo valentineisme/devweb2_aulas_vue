@@ -20,7 +20,7 @@
                                 />
 
                                 <v-text-field
-                                    :type:"password"
+                                    type="password"
                                     :counter="20"
                                     label="senha"
                                     maxlength="20"
