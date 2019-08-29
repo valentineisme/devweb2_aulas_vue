@@ -37,7 +37,12 @@
 </template>
 
 <script>
-    export default{
-        name: 'Login',
+export default {
+    name: 'Login',
+    methods: {
+        login() {
+            confirm('somente teste')
+        }
     }
+}
 </script>
